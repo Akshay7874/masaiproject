@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regular Keyboard</title>
+  <style>
+    .keyboard {
+      display: grid;
+      grid-template-columns: repeat(14, 1fr);
+      gap: 5px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .key {
+      background-color: #fff;
+      color: #333;
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .special-key {
+      background-color: #ddd;
+    }
+
+    .large-key {
+      grid-column: span 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="keyboard">
+    <div class="key">`</div>
+    <div class="key">1</div>
+    <div class="key">2</div>
+    <div class="key">3</div>
+    <div class="key">4</div>
+    <div class="key">5</div>
+    <div class="key">6</div>
+    <div class="key">7</div>
+    <div class="key">8</div>
+    <div class="key">9</div>
+    <div class="key">0</div>
+    <div class="key">-</div>
+    <div class="key">=</div>
+    <div class="key">Backspace</div>
+
+    <div class="key">Tab</div>
+    <div class="key">q</div>
+    <div class="key">w</div>
+    <div class="key">e</div>
+    <div class="key">r</div>
+    <div class="key">t</div>
+    <div class="key">y</div>
+    <div class="key">u</div>
+    <div class="key">i</div>
+    <div class="key">o</div>
+    <div class="key">p</div>
+    <div class="key">[</div>
+    <div class="key">]</div>
+    <div class="key special-key">\\</div>
+
+    <div class="key special-key">Caps Lock</div>
+    <div class="key">a</div>
+    <div class="key">s</div>
+    <div class="key">d</div>
+    <div class="key">f</div>
+    <div class="key">g</div>
+    <div class="key">h</div>
+    <div class="key">j</div>
+    <div class="key">k</div>
+    <div class="key">l</div>
+    <div class="key">;</div>
+    <div class="key">'</div>
+    <div class="key special-key">Enter</div>
+
+    <div class="key special-key">Shift</div>
+    <div class="key">z</div>
+    <div class="key">x</div>
+    <div class="key">c</div>
+    <div class="key">v</div>
+    <div class="key">b</div>
+    <div class="key">n</div>
+    <div class="key">m</div>
+    <div class="key">,</div>
+    <div class="key">.</div>
+    <div class="key">/</div>
+    <div class="key special-key">Shift</div>
+
+    <div class="key special-key">Ctrl</div>
+    <div class="key">Win</div>
+    <div class="key special-key">Alt</div>
+    <div class="key">Space</div>
+    <div class="key special-key">Alt</div>
+    <div class="key">Ctrl</div>
+  </div>
+</body>
+</html>
